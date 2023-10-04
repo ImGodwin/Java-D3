@@ -26,7 +26,8 @@ public class Rectangle {
         System.out.println("Type in width: ");
         int width3 = Integer.parseInt(input.nextLine());
 
-        System.out.println("Rectangle 1 Area: " + stampaDueRettangoli(length2, width2) + " Parameters sum: "  + length2 + width2 + ". " + "Rectangle 2 Area: " +  stampaDueRettangoli(length3, width3) + " " + "Sum: " + " " + length3 + width3);
+        System.out.println("Rectangle 1 Area: " + stampaDueRettangoli(length2, width2) + " Parameters sum: "  + length2 + width2 + ". " + "Rectangle 2 Area: " +
+                stampaDueRettangoli(length3, width3) + " " + "Sum: " + " " + length3 + width3);
 
         input.close();
     }
