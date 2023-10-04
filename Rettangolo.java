@@ -1,7 +1,7 @@
 
 public class Rettangolo {
-    private int length;
-    private int width;
+    public int length;
+    public int width;
 
 
     public  Rettangolo(int length, int width)
@@ -10,14 +10,12 @@ public class Rettangolo {
         this.width = width;
     }
 
-    public void stampaRettangolo(){
-        int num = this.length * this.width;
-        System.out.println("the area of: " + this.length + " "  + this.width + " is " + (num));
+    public void stampaRettangolo(int length, int width){
+        int num = length * width;
+        System.out.println("the area of: " + length + " "  + width + " is " + (num));
     }
 
-    public void stampaDuerettangoli(){
 
-    }
 }
 
 //constructor
